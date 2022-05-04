@@ -7,5 +7,5 @@ const server = app.listen(port, function () {
 })
 
 app.get('/', (req, res) => {
-    res.send('Hello from app version 0.0.2');
+    res.send('Hello from app version 0.0.3');
 })
